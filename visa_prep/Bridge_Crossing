@@ -1,0 +1,4 @@
+X, Y, Z = map(int, input().split())
+rc = Z-Y
+maxmgs = rc//X
+print(maxmgs)
