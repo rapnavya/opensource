@@ -1,0 +1,9 @@
+vm, cm = input().split()
+if vm == cm:
+    print("NULL")
+elif (vm == "R" and cm == "S") or \
+     (vm == "P" and cm == "R") or \
+     (vm == "S" and cm == "P"):
+    print("Vignesh")
+else:
+    print("Charan")
