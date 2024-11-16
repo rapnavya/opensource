@@ -1,0 +1,3 @@
+X, Y = map(int, input().split())
+maxch = X // Y
+print(maxch)
