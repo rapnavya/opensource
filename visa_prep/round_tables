@@ -1,0 +1,4 @@
+import math
+X = int(input())
+b=math.factorial(X)
+print(b)
