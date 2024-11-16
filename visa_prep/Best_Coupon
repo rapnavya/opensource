@@ -1,0 +1,6 @@
+X=int(input())
+dtpt = 0.1*X
+fldt = 100
+maxdt = max(dtpt, fldt)
+flamt = X-maxdt
+print(int(flamt))
