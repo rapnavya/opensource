@@ -1,0 +1,4 @@
+X=int(input().strip())
+agediff = 25 - 10
+vigneshatX = X - agediff
+print(vigneshatX)
